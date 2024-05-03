@@ -1,0 +1,51 @@
+.progresslist .pItem {
+    /* height: 100%; */
+    margin-bottom: 20px;
+}
+
+.progresslist .pItem .progress {
+    position: relative;
+    z-index: 1;
+    height: 5px;
+    width: 100%;
+}
+
+.progresslist .pItem .progress::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: #E7F8FF;
+}
+
+.progresslist .pItem .progress .pbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    height: 100%;
+    width: 0%;
+    background: #0EB7FE;
+}
+
+.progresslist .pItem .progress .pText {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #878AA0;
+}
+
+.dashboard .top-selling img:hover {
+    border-radius: 5px;
+    max-width: 50%;
+  }
+
+  
